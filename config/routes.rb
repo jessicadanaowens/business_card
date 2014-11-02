@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get "/cards" => "cards#index"
 
-  get "/access_token" => "cards#access_token", as: :get_access_token
+  get "/auth_code" => "cards#auth_code", as: :get_auth_code
 
 
 end

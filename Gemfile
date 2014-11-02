@@ -37,4 +37,6 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'dotenv-rails', '~> 0.11.1'
+gem 'faraday'
 
